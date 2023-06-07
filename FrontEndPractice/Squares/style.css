@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(209, 229, 235);
+    margin-top: 220px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.square {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.buttons {
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redButton {
+    background-color: #52030d;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.redButton:hover {
+    background: red;
+}
+
+.redButton:active {
+    background: black;
+    top: 12px;
+}
+
+.greenButton {
+    background-color: rgb(1, 63, 1);
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+
+}
+
+.greenButton:hover {
+    background: green;
+}
+
+.greenButton:active {
+    background: black;
+    top: 12px;
+}
+
+.blueButton {
+    background-color: #032877;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.blueButton:hover {
+    background: blue;
+}
+
+.blueButton:active {
+    background: black;
+    top: 12px;
+}
